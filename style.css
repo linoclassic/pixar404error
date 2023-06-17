@@ -1,0 +1,193 @@
+/* #region global */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+@font-face {
+    font-family: Pixar;
+    src: url(fonts/Pixar.ttf);
+}
+
+body {
+    font-family: Montserrat;
+    background-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: #282828;
+}
+
+
+/* #endregion global */
+
+
+
+/* #region header */
+
+nav {
+    font-family: Pixar;
+    display: flex;
+    /* padding: 1rem 2rem; */
+    padding: 1.5rem 2.2rem;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.logo h1 {
+    letter-spacing: 12px;
+    font-weight: 500;
+    font-size: 2.2rem;
+}
+
+.navbar {
+    display: flex;
+    gap: 4.5rem;
+}
+
+.nav-item {
+    font-size: 1.1rem;
+}
+
+
+.nav-item:hover {
+    text-decoration: underline solid 3px;
+}
+
+/* #endregion header */
+
+
+/* #region content */
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    margin: 0 18rem;
+
+}
+
+.img img {
+
+    width: 40dvw;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text-item {
+    padding: .8rem 0;
+}
+
+.text-item h1 {
+    /* font-size: 2.2rem; */
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.text-item p {
+    font-size: 1.1rem;
+}
+
+.text-item a {
+    background-color: #021f59;
+    color: aliceblue;
+    padding: 1rem 7rem;
+    margin-top: 5rem;
+    /* border-radius: 10px; */
+}
+
+.text-item a:hover {
+    background-color: #021a47;
+
+}
+
+
+/* #endregion content */
+
+
+/* #region media */
+
+@media (max-width:1650px) {
+
+
+
+    .navbar {
+        display: flex;
+        gap: 4rem;
+    }
+
+    .nav-item {
+        font-size: 1rem;
+    }
+
+    .content {
+        margin: 0 5rem;
+
+    }
+
+}
+
+@media (max-width:1100px) {
+    .navbar {
+        display: none;
+    }
+
+    .content {
+        margin: 0 5rem;
+
+    }
+}
+
+
+@media (max-width:1024px) {
+    .content {
+        grid-template-columns: 1fr;
+        margin: .3rem;
+    }
+
+    .text-item a {
+        background-color: #021f59;
+        color: aliceblue;
+        padding: 1rem 7rem;
+        /* border-radius: 10px; */
+    }
+
+    .navbar {
+        gap: 3rem;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    nav {
+        /* padding: 1.5rem 2.2rem; */
+        padding: 1.1rem
+    }
+
+    .logo h1 {
+        letter-spacing: 12px;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+
+    .text-item h1 {
+        font-size: xx-large;
+    }
+}
+
+/* #endregion media */
