@@ -100,11 +100,14 @@ nav {
     font-size: 1.1rem;
 }
 
-.text-item a {
+.mt{
+    margin-top: 1rem;
+}
+
+.text-item  a{
     background-color: #021f59;
     color: aliceblue;
     padding: 1rem 7rem;
-    margin-top: 5rem;
     /* border-radius: 10px; */
 }
 
@@ -115,7 +118,6 @@ nav {
 
 
 /* #endregion content */
-
 
 /* #region media */
 
@@ -155,12 +157,14 @@ nav {
     .content {
         grid-template-columns: 1fr;
         margin: .3rem;
+        margin-top: 5rem;
     }
 
     .text-item a {
         background-color: #021f59;
         color: aliceblue;
         padding: 1rem 7rem;
+       
         /* border-radius: 10px; */
     }
 
