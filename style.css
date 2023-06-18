@@ -33,7 +33,10 @@ a {
 /* #region header */
 
 nav {
+<<<<<<< HEAD
     font-family: Pixar;
+=======
+>>>>>>> sec
     display: flex;
     /* padding: 1rem 2rem; */
     padding: 1.5rem 2.2rem;
@@ -43,6 +46,10 @@ nav {
 }
 
 .logo h1 {
+<<<<<<< HEAD
+=======
+    font-family: Pixar;
+>>>>>>> sec
     letter-spacing: 12px;
     font-weight: 500;
     font-size: 2.2rem;
@@ -50,16 +57,30 @@ nav {
 
 .navbar {
     display: flex;
+<<<<<<< HEAD
     gap: 4.5rem;
 }
 
 .nav-item {
     font-size: 1.1rem;
+=======
+    gap: 4.3rem;
+    font-weight: 500;
+    
+}
+
+.nav-item {
+    font-size: 1.2rem;
+>>>>>>> sec
 }
 
 
 .nav-item:hover {
+<<<<<<< HEAD
     text-decoration: underline solid 3px;
+=======
+    text-decoration: underline solid 2px;
+>>>>>>> sec
 }
 
 /* #endregion header */
@@ -92,7 +113,11 @@ nav {
 
 .text-item h1 {
     /* font-size: 2.2rem; */
+<<<<<<< HEAD
     font-size: 2.2rem;
+=======
+    font-size: 2.4rem;
+>>>>>>> sec
     font-weight: 500;
 }
 
@@ -188,7 +213,10 @@ nav {
         font-size: 1.5rem;
     }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> sec
     .text-item h1 {
         font-size: xx-large;
     }
